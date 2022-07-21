@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["index.scss"],"sourcesContent":["@import '../utils/vars.scss';\n\n@import \"typography\";\n@import 'buttons';\n@import 'menu';\n@import 'name';\n@import 'summary';\n@import 'lang-picker';\n@import 'images';\n@import 'links';\n@import 'text-footer';\n"],"file":"index.css"}

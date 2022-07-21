@@ -1,0 +1,60 @@
+.title {
+  font-size: 1.88rem;
+  font-weight: 700;
+  line-height: 2.33rem;
+  text-align: center;
+}
+
+.button {
+  background: #070707;
+  height: 2.33rem;
+  width: 10rem;
+  border-radius: 0px;
+}
+
+.menu {
+  color: #828282;
+}
+
+.menu:active {
+  color: #070707;
+}
+
+.name {
+  color: #070707;
+  font-size: 2.63rem;
+  line-height: 3.28rem;
+}
+
+.summary {
+  color: #070707;
+}
+
+.lang-picker {
+  color: #828282;
+  font-size: 0.89rem;
+  line-height: 1.11rem;
+  transform: rotate(-90deg);
+}
+
+.lang-picker:active {
+  color: #070707;
+}
+
+.main-photo {
+  background: url("../img/photo.jpg");
+}
+
+a {
+  color: #070707;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.text-footer {
+  color: #070707;
+  font-size: 0.78rem;
+  line-height: 0.94rem;
+}
+
+/*# sourceMappingURL=index.css.map */

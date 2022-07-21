@@ -1,0 +1,1 @@
+{"version":3,"sources":["images.scss"],"names":[],"mappings":"AAAA,YACE,WAAY","file":"images.min.css","sourcesContent":["@import '../utils/vars.scss';\n\n.main-photo {\n    background: url('#{$images-path}/#{$main-photo}');\n}\n\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["text-footer.scss"],"sourcesContent":["@import '../utils/vars.scss';\n\n.text-footer {\n color: $cod-gray;\n font-size: 0.78rem;\nline-height: 0.94rem;\n}"],"file":"text-footer.css"}

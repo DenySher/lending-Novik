@@ -1,0 +1,81 @@
+@import "../utils/vars";
+
+$header-padding-top-sm: 8vh;
+
+.header {
+  @media (max-width: $sm) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: $header-padding-top-sm;
+    background-color: $white;
+    display: none;  
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 0px;
+
+    @media (max-width: $sm) {
+      padding: 0;
+      gap: 8vh;
+      flex-direction: column;
+    }
+  }
+
+  &__link {
+    color: $gray;
+    font-weight: 700;
+
+    &:hover {
+      color: $cod-gray;
+    }
+
+    @media (max-width: $sm) {
+      font-size: 34px;
+    }
+  }
+
+  &__close-btn {
+    display: none;
+
+    @media (max-width: $sm) {
+      display: block;
+      all: unset;
+      position: absolute;
+      top: $header-padding-top-sm;
+      right: $container-padding;
+    }
+  }
+
+  &__language {
+    display: none;
+
+    @media (max-width: $sm) {
+      display: flex;
+      position: absolute;
+      right: $container-padding;
+      bottom: 57px;
+      transform: rotate(90deg) translateX(100%);
+      transform-origin: right top;
+
+      &-btn {
+        font-size: 34px;
+      }
+    }
+  }
+  
+  &__hr {
+    border: none;
+    height: 1px;
+    background-color: $gray;
+
+    @media (max-width: $sm) {
+      display: none;
+    }
+  }
+}
+

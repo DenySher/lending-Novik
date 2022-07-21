@@ -1,0 +1,42 @@
+@import "../utils/vars";
+
+.author-info {
+  padding: 40px 0 105px;
+
+  @media (max-width: $sm) {
+    padding: 65px 0 83px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+
+    @media (max-width: $sm) {
+      flex-direction: column;
+      justify-content: start;
+      align-items: flex-start;
+      margin-bottom: 36px;
+    }
+  }
+
+  &__title {
+    font-size: 2.61rem;
+    line-height: 3.27rem;
+
+    @media (max-width: $sm) {
+      margin-bottom: 1.44rem;
+    }
+  }
+
+  &__language {
+    @media (max-width: $sm) {
+      display: none;
+    }
+  }
+
+  &__photo {
+    width: 100%;
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["images.scss"],"sourcesContent":["@import '../utils/vars.scss';\n\n.main-photo {\n    background: url('#{$images-path}/#{$main-photo}');\n}\n\n"],"file":"images.css"}

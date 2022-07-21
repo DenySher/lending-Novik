@@ -1,0 +1,1 @@
+{"version":3,"sources":["text-footer.scss"],"names":[],"mappings":"AAAA,aACE,MAAO,QACP,UAAW,OACX,YAAa","file":"text-footer.min.css","sourcesContent":["@import '../utils/vars.scss';\n\n.text-footer {\n color: $cod-gray;\n font-size: 0.78rem;\nline-height: 0.94rem;\n}"]}

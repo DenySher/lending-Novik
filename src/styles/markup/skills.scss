@@ -1,0 +1,56 @@
+@import "../utils/vars";
+
+.skills {
+  padding: 5rem 0 6.11rem;
+  text-align: center;
+
+  &__title {
+    margin-bottom: 2.83rem;
+  }
+
+  &__subtitle {
+    margin-bottom: 4.64rem;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: $md) {
+      flex-direction: column;
+      gap: 80px;
+    }
+
+    &-item {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+    }
+
+    &-img {
+      margin-bottom: 1.36rem;
+    }
+
+    &-title {
+      margin-bottom: 2.3rem;
+      font-size: 0.77rem;
+      line-height: 0.94rem;
+      color: $gray;
+    }
+
+    &-stars {
+      span {
+        &:after {
+          content: "★";
+          color: $mercury;
+          font-size: 36px;
+          cursor: pointer;
+        }
+
+        &:hover:after {
+          color: $cod-gray;
+        }
+      }
+    }
+  }
+}

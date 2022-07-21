@@ -1,0 +1,1 @@
+{"version":3,"sources":["menu.scss"],"names":[],"mappings":"AAAA,MACE,MAAO,QAGT,aACE,MAAO","file":"menu.min.css","sourcesContent":["@import '../utils/vars.scss';\n\n.menu {\n    color: $gray;\n}\n\n.menu:active{\n    color: $cod-gray;\n}"]}

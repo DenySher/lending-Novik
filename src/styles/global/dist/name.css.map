@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["name.scss"],"sourcesContent":["@import '../utils/vars.scss';\n\n.name{\n    color: $cod-gray;\n    font-size: 2.63rem;\n    line-height: 3.28rem;\n}"],"file":"name.css"}

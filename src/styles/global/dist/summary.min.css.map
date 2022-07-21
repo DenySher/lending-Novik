@@ -1,0 +1,1 @@
+{"version":3,"sources":["summary.scss"],"names":[],"mappings":"AAAA,SACE,MAAO","file":"summary.min.css","sourcesContent":["@import '../utils/vars.scss';\n\n.summary{\n    color: $cod-gray;\n}"]}

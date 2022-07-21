@@ -1,0 +1,26 @@
+@import "../utils/vars";
+
+.portfolio {
+  padding: 6.27rem 0 5.37rem;
+  background-color: $wild-sand;
+  text-align: center;
+
+  &__title {
+    margin-bottom: 2.61rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5.51rem;
+
+    &-img {
+      max-width: 100%;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  &__link {
+    text-decoration-line: underline;
+  }
+}

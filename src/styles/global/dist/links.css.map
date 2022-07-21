@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["links.scss"],"sourcesContent":["@import '../utils/vars.scss';\n\na {\n    color: $cod-gray;\n    text-align: center;\n    text-decoration-line: underline;\n}"],"file":"links.css"}

@@ -1,0 +1,16 @@
+@import "../utils/vars";
+
+.button {
+    padding: 13px 30px;
+    background: $cod-gray;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    color: $white;
+    cursor: pointer;
+
+    &:hover {
+        background: transparent;
+        border: 2px solid $cod-gray;
+        color: $cod-gray;
+    }
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["lang-picker.scss"],"names":[],"mappings":"AAAA,aACE,MAAO,QACP,UAAW,OACX,YAAa,QACb,UAAW,eAGb,oBACE,MAAO","file":"lang-picker.min.css","sourcesContent":["@import '../utils/vars.scss';\n\n.lang-picker{\n    color: $gray;\n    font-size: 0.89rem;\n    line-height: 1.11rem;\n    transform: rotate(-90deg);\n}\n\n.lang-picker:active{\n    color: $cod-gray;\n}"]}

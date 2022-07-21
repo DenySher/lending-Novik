@@ -1,0 +1,24 @@
+@import "../utils/vars";
+@import "../global/typo.scss";
+@import "../global/layout.scss";
+
+.about-me {
+    background-color: $wild-sand;
+    padding: 121px 0 107px;
+
+    &__paragraph {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 485px;
+        text-align: center;
+
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+    }
+    &__title {
+        margin-bottom: 1rem;
+    }
+}
+
+

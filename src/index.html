@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>webpack starterkit</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav>
+        <ul class="header__list">
+          <li><a class="header__link">Home</a></li>
+          <li><a class="header__link">About me</a></li>
+          <li><a class="header__link">Skills</a></li>
+          <li><a class="header__link">Portfolio</a></li>
+          <li><a class="header__link">Contacts</a></li>
+        </ul>
+      </nav>
+      <button class="header__close-btn"><img src="assets/icons/close.svg" alt="X"></button>
+      <div class="language-switcher header__language">
+        <button class="language-switcher__btn header__language-btn">RU</button>
+        <button class="language-switcher__btn header__language-btn">ENG</button>
+      </div>
+      <hr class="header__hr" />
+    </div>
+  </header>
+  <main>
+    <section class="author-info">
+      <div class="container">
+        <div class="author-info__wrapper">
+          <h1 class="title author-info__title">Denis<br />Novik</h1>
+          <p class="author-info__info">
+            UX | UI designer<br />24 years old, Minsk
+          </p>
+          <div class="language-switcher author-info__language">
+            <button class="language-switcher__btn">RU</button>
+            <button class="language-switcher__btn">ENG</button>
+          </div>
+        </div>
+
+        <picture>
+          <source media="(max-width:578px)" srcset="assets/images/author-sm.jpg">
+
+          <img class="author-info__photo" src="assets/images/author.jpg" alt="author photo">
+        </picture>
+      </div>
+    </section>
+    <section class="about-me">
+      <div class="container">
+        <h2 class="title about-me__title">About me</h2>
+        <p class="about-me__paragraph">
+          Hi, I'm Denis – UX/UI designer from Minsk. <br />I'm interested in
+          design and everything connected with it.
+        </p>
+        <p class="about-me__paragraph">
+          I'm studying at courses "Web and mobile design interfaces" in
+          IT-Academy.
+        </p>
+        <p class="about-me__paragraph">
+          Ready to implement excellent projects with wonderful people.
+        </p>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="container">
+        <h2 class="title skills__title">Skills</h2>
+        <p class="skills__subtitle">I work in such programs as</p>
+        <ul class="skills__wrapper">
+          <li class="skills__wrapper-item">
+            <img class="skills__wrapper-img" src="assets/icons/adobe-photoshop.svg" alt="Adobe Photoshop" />
+            <h3 class="skills__wrapper-title">Adobe<br />Photoshop</h3>
+            <div class="skills__wrapper-stars">
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+            </div>
+          </li>
+          <li class="skills__wrapper-item">
+            <img class="skills__wrapper-img" src="assets/icons/adobe-illustrator.svg" alt="AI" />
+            <h3 class="skills__wrapper-title">Adobe<br />Illustrator</h3>
+            <div class="skills__wrapper-stars">
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+            </div>
+          </li>
+          <li class="skills__wrapper-item">
+            <img class="skills__wrapper-img" src="assets/icons/adobe-after-effects.svg" alt="AE" />
+            <h3 class="skills__wrapper-title">Adobe<br />After Effects</h3>
+            <div class="skills__wrapper-stars">
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+            </div>
+          </li>
+          <li class="skills__wrapper-item">
+            <img class="skills__wrapper-img" src="assets/icons/figma.svg" alt="F" />
+            <h3 class="skills__wrapper-title">Figma</h3>
+            <div class="skills__wrapper-stars">
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+              <span class="skills__wrapper-star"></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </section>
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="title portfolio__title">Portfolio</h2>
+        <ul class="portfolio__list">
+          <li class="portfolio__list-item">
+            <img class="portfolio__list-img" src="assets/images/new-collection.jpg" alt="new collection" />
+            <a class="portfolio__link">Online fashion store - Homepage</a>
+          </li>
+          <li class="portfolio__list-item">
+            <img class="portfolio__list-img" src="assets/images/reebok.jpg" alt="reebok" />
+            <a class="portfolio__link">Reebok Store - Concept</a>
+          </li>
+          <li class="portfolio__list-item">
+            <img class="portfolio__list-img" src="assets/images/braun.jpg" alt="braun" />
+            <a class="portfolio__link">Braun Landing Page - Concept</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <h2 class="title footer__title">Contacts</h2>
+      <p class="footer__subtitle">
+        Want to know more or just chat? You are welcome!
+      </p>
+      <button class="button footer__button">Send message</button>
+      <ul class="footer__networks">
+        <li>
+          <a href="google.com"><img src="assets/icons/linkedin.svg" alt="linkedin" /></a>
+        </li>
+        <li>
+          <a href="google.com"><img src="assets/icons/instagram.svg" alt="instagram" /></a>
+        </li>
+        <li>
+          <a href="google.com"><img src="assets/icons/behance.svg" alt="behance" /></a>
+        </li>
+        <li>
+          <a href="google.com"><img src="assets/icons/dribbble.svg" alt="dribbble" /></a>
+        </li>
+      </ul>
+      <p class="footer__like-me">
+        Like me on <br /> LinkedIn, Instagram, Behance, Dribble
+      </p>
+    </div>
+  </footer>
+  <script>
+
+
+// const iAm = {
+//   name: 'Denis',
+//   surName: 'Kurinniy',
+//   age: '37',
+// }
+
+// const newO = {};
+
+// for(let i in iAm) {
+//   newO[i] = iAm[i];
+// }
+
+// console.log(iAm)
+// iAm.from = 'Russia';
+// const {name, surName, age} = iAm;
+// console.log(name);
+
+// for (let i = 0; i < 3; i++) {
+//   console.log(i);
+// }
+
+// for(i in iAm) {
+  
+//   console.log(i)
+// }
+
+// console.log(iAm);
+
+// function age(a, b) {
+//   return a - b;
+// } 
+// let res = age(2022, 1984);
+
+// console.log(res);
+
+// let user = {
+//   name: "Иван",
+//   age: 30
+// };
+
+// let clone = Object.assign({}, user);
+// console.log(clone)
+
+// class Man {
+//   name = '';
+//   surName = '';
+//   age = 0;
+
+//   constructor(name, surName, age) {
+//     this.name = name;
+//     this.surName = surName;
+//     this.age = age;
+//   }
+// }
+
+// const denis = new Man('Denis', 'K', 37);
+// const yana = new Man('Yana', 'Boriskina', 29);
+
+// const people = [denis, yana]
+
+// console.log(people)
+
+// const res = people.filter(function(res) {
+//   return res.age == 29;
+// }) 
+// console.log(res)
+
+// const js = prompt('введите число')
+// if (js > 0 ) {
+//   alert(1)
+// } else if (js < 0) { 
+//   alert(-1)
+// } else if (js == 0) {
+//   alert(0)
+// }
+  
+const baseUrl = 'https://akestoreapi.com/products';
+ 
+// fetch(baseUrl)
+// .then((Response) => Response.json())
+// .then((data) => console.log(data))
+// .catch(console.log)
+
+const newDate = async() => {
+  try {
+  const response = await fetch(baseUrl);
+  const data = await response.json();
+  console.log(data)
+  } catch (e) {
+    console.log(e)
+  }
+}
+
+newDate()
+
+
+
+</script>
+</body>
+</html>

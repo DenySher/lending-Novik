@@ -1,0 +1,1 @@
+{"version":3,"sources":["links.scss"],"names":[],"mappings":"AAAA,EACE,MAAO,QACP,WAAY,OACZ,qBAAsB","file":"links.min.css","sourcesContent":["@import '../utils/vars.scss';\n\na {\n    color: $cod-gray;\n    text-align: center;\n    text-decoration-line: underline;\n}"]}

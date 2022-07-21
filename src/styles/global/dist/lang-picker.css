@@ -1,0 +1,12 @@
+.lang-picker {
+  color: #828282;
+  font-size: 0.89rem;
+  line-height: 1.11rem;
+  transform: rotate(-90deg);
+}
+
+.lang-picker:active {
+  color: #070707;
+}
+
+/*# sourceMappingURL=lang-picker.css.map */

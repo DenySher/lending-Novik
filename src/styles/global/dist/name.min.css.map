@@ -1,0 +1,1 @@
+{"version":3,"sources":["name.scss"],"names":[],"mappings":"AAAA,MACE,MAAO,QACP,UAAW,QACX,YAAa","file":"name.min.css","sourcesContent":["@import '../utils/vars.scss';\n\n.name{\n    color: $cod-gray;\n    font-size: 2.63rem;\n    line-height: 3.28rem;\n}"]}
